@@ -63,7 +63,7 @@ public class ContactsApplication {
                 System.out.println("----------Please add a new contact------------");
 
             } else if (userDecides == 3) {
-
+                searchContacts(name);
             } else if (userDecides == 4) {
 
             } else if (userDecides == 5) {
@@ -98,6 +98,27 @@ public class ContactsApplication {
 
     public void addContact() throws IOException{
 
+    }
+
+    public List<String> searchContacts(List<String> contacts) {
+        // ask for input here, capture into String
+        Input input = new Input();
+        // Create a blank list
+        List<String> names = new ArrayList<>();
+
+        // do for loop here
+//        for(String x : contacts) {
+//            System.out.println(x);
+//            if(input == contacts | input){
+//
+//            }
+//        }
+        // loop through contacts
+        // if userInput === contacts -1 on |  OR if userInput is similar/inside to contacts
+        // add that contact to the blank list
+
+
+        // return blank list
     }
 
 
